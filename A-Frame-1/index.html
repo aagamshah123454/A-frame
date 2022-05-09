@@ -1,0 +1,47 @@
+<html>
+   <head>
+      <title>A-frame lecture-1</title>
+      <meta name="description" content="Text - A-Frame">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js" "></script>
+   </head>
+   <body>
+      <a-scene background="color: ##EBECF0">
+         <a-assets>
+            <img id="my-image" src="profile-image.jpg">
+         </a-assets>
+         <a-plane position="0.5 2.2 -0.5" scale="8 3 1" color="#000"></a-plane>
+         <a-entity position="0,0,0">
+            <a-entity position="0.65 2.6 0" text="width: 4; color: #EEEEEE;lineHeight: 50; letterSpacing:5; value:FrontendMe"></a-entity>
+                <a-entity position="-1 2 0" text="width: 2; lineHeight: 50; letterSpacing: 5;
+               font:https://cdn.aframe.io/fonts/DejaVu-sdf.fnt;color: white;
+               value:“Hello , My name is Aagam shah . I am a Designer/Front End Developer living in Ahmedabad , India"></a-entity>
+               <a-circle color="#EEEEEE"src="#my-image" radius="0.3"position="-1.8 2.6 0"></a-circle>
+               <a-entity position="0 1.8 2">
+                    <a-entity camera look-controls wasd-controls></a-entity>
+               </a-entity>
+        </a-entity>
+        <a-entity position="2 2.2 0">
+            <a-entity position="0 -0.2 0" text="color:white;font:https://cdn.aframe.io/fonts/DejaVu-sdf.fnt;
+                align:left;value:-     JS (Javascript); width:2;"></a-entity>
+            <a-entity position="0 -0.4 0" text="color:white;font:https://cdn.aframe.io/fonts/DejaVu-sdf.fnt;
+               align:left;value:-     React; width:2;"></a-entity>
+            <a-entity position="0 -0.6 0" text="color:white;font:https://cdn.aframe.io/fonts/DejaVu-sdf.fnt;
+               align:left;value:-     GitHub; width:2;"></a-entity>
+            <a-entity position="0 0.2 0"text="font:https://cdn.aframe.io/fonts/DejaVu-sdf.fnt;color: white; 
+               align: left; value:-     HTML (Hyper text markup language); width: 2; "></a-entity>
+            <a-entity position="0 0 0" text="font:https://cdn.aframe.io/fonts/DejaVu-sdf.fnt;color:white;
+               align:left;value:-     CSS (cascading stylesheet); width:2;"></a-entity>
+            <a-entity position="0 0.4 0" geometry="primitive: plane; width: auto; height:
+               auto" material="color: #FF0000" text="color: #EEEEEE;font:https://cdn.aframe.io/fonts/DejaVu-sdf.fnt;align: 
+               center; value:Skills; width: 2; ">
+            </a-entity>
+         </a-entity>  
+      </a-scene>
+      
+   </body>
+</html>
+
+
+
+
+
